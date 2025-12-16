@@ -100,6 +100,7 @@ function TabContent({ item }) {
 	return (
 		<div className="tab-content">
 			<h4>{item.summary}</h4>
+
 			{showDetails && <p>{item.details}</p>}
 
 			<div className="tab-actions">
